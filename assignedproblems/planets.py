@@ -7,7 +7,7 @@ elif planet == 2:
 elif planet == 3:
     print(mass * 2.65)
 elif planet == 4:
-    print(1.17 * mass)
+    print(1.17*mass)
 elif planet == 5:
     print(mass * 1.05)
 elif planet == 6:
