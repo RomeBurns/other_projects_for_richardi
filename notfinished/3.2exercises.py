@@ -38,3 +38,10 @@ def problem8():
             domain[i] += 1
         rnage.add(domain[i])
 
+def problem10(s):
+    domain = s
+    if domain <= 1 and domain > 0:
+        return domain + 1
+
+# 9, 5 and this is the case because a set does not have multiple copies of the same number
+
