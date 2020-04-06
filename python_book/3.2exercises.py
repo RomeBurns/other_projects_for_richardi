@@ -38,6 +38,16 @@ def problem8():
             domain[i] += 1
         rnage.add(domain[i])
 
+
+def problem9(a, b):
+    import math
+    ans = set()
+    n = a**2 + b**2
+    n = math.sqrt(n)
+    if n <= 1:
+        ans.add(n)
+#a and b are the coordinates for given points
+
 def problem10(s):
     domain = s
     if domain <= 1 and domain > 0:
@@ -45,3 +55,10 @@ def problem10(s):
 
 # 9, 5 and this is the case because a set does not have multiple copies of the same number
 
+#3 sets
+
+def mex(s):
+    n = 0
+    while n in s:
+        n += 1
+    return n
